@@ -3,7 +3,6 @@ const { InlineKeyboard } = require("grammy")
 
 const engineHandler = async ctx => {
   let text = "Pilihlah salah satu engine dibawah ini:"
-  let text = "Gunakan Perintah /engine untuk memilih kembali"
   let keyboard = new InlineKeyboard()
     .text("Virus Total", "virus-total")
     .text("IP Abuse", "ip-abuse").row()
