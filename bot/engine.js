@@ -2,7 +2,7 @@ const User = require("../database/UserSchema.js")
 const { InlineKeyboard } = require("grammy")
 
 const engineHandler = async ctx => {
-  let text = "Pilihlah salah satu engine dibawah ini:"
+  let text = "Pilihlah salah satu engine dibawah ini: \n Untuk memilih kembali gunakan /engine"
   let keyboard = new InlineKeyboard()
     .text("Virus Total", "virus-total")
     .text("IP Abuse", "ip-abuse").row()
