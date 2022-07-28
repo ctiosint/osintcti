@@ -43,22 +43,6 @@ bot.command("start", async ctx => {
   text += "1. /start - Gunakan command ini untuk menampilkan pesan ini.\n"
   text += "2. /engine - Command yang digunakan untuk mengganti engine.\n\n"
 
-  text += "Valid Keyword :\n"
-  text += "1. Etherscan\n"
-  text += "├ Tx Block : 15177209 atau 0xe795f9\n"
-  text += "├ Address : 0xec005ca98ac48e3978438fb163cfaede55e519c6\n"
-  text += "└ Tx Hash : 0x8f5a9a2b927aaad31c31d86827a845d33e19b49201ccf8244904462e52977731\n\n"
-
-  text += "2. IP Abuse\n"
-  text += "└ IP Address : 127.0.0.1 / 10.277.81.22\n\n"
-
-  text += "3. Virus Total\n"
-  text += "├ Tag Comment : apt1\n"
-  text += "├ IP Address : 127.0.0.1\n"
-  text += "├ File Hash : f188936d2c8423cf064d6b8160769f21\n"
-  text += "├ Domain : youtube.com\n"
-  text += "└ URL : https://t.me/\n\n"
-
   text += "Note :\n"
   text += "Jika kamu usai memasukkan keyword tetapi bot merespon dengan "
   text += "respon yang tidak kamu harapkan, maka sebaiknya "
