@@ -47,6 +47,11 @@ bot.command("start", async ctx => {
   text += "Jika kamu usai memasukkan keyword tetapi bot merespon dengan "
   text += "respon yang tidak kamu harapkan, maka sebaiknya "
   text += "kamu mengecek ulang apakah keyword yang kamu masukkan itu telah benar."
+  
+  text += "Keterangan Tools:\n"
+  text += "Virus Total = digunakan untuk pencarian informasi threat actor."
+  text += "IPAbuse = digunakan untuk pencarian informasi IP atau domain malicious."
+  text += "EtherScan = digunakan untuk pencarian informasi malicious cryptocurrency address"
 
   return await startHandler(ctx, text)
 })
