@@ -49,8 +49,8 @@ bot.command("start", async ctx => {
   text += "kamu mengecek ulang apakah keyword yang kamu masukkan itu telah benar.\n\n"
   
   text += "Keterangan Tools:\n"
-  text += "Virus Total digunakan untuk pencarian informasi threat actor."
-  text += "IPAbuse digunakan untuk pencarian informasi IP atau domain malicious."
+  text += "Virus Total digunakan untuk pencarian informasi threat actor.\n"
+  text += "IPAbuse digunakan untuk pencarian informasi IP atau domain malicious.\n"
   text += "EtherScan digunakan untuk pencarian informasi malicious cryptocurrency address"
 
   return await startHandler(ctx, text)
