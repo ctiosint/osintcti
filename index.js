@@ -36,22 +36,7 @@ bot.command("start", async ctx => {
     newUser.save()
   }
 
-  let text = `Halo ${ name }, selamat datang!!\nJangan lupa untuk membaca `
-  text += "sedikit panduan dibawah tentang cara menggunakanku.\n\n"
-
-  text += "Command Available :\n"
-  text += "1. /start - Gunakan command ini untuk menampilkan pesan ini.\n"
-  text += "2. /engine - Command yang digunakan untuk mengganti engine.\n\n"
-
-  text += "Note :\n"
-  text += "Jika kamu usai memasukkan keyword tetapi bot merespon dengan "
-  text += "respon yang tidak kamu harapkan, maka sebaiknya "
-  text += "kamu mengecek ulang apakah keyword yang kamu masukkan itu telah benar.\n\n"
   
-  text += "Keterangan Tools:\n"
-  text += "Virus Total digunakan untuk pencarian informasi threat actor.\n"
-  text += "IPAbuse digunakan untuk pencarian informasi IP atau domain malicious.\n"
-  text += "EtherScan digunakan untuk pencarian informasi malicious cryptocurrency address"
 
   return await startHandler(ctx, text)
 })
